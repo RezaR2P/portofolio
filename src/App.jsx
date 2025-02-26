@@ -1,8 +1,15 @@
+import LoadingScreen from './components/LoadingScreen.jsx'
+import './index.css'
+import {useState} from 'react'
 function App() {
+  const [isLoaded, setIsLoaded] = useState(false)
   return (
-      <h1 className="text-3xl font-bold underline text-red-600">
-        Hello world!
-      </h1>
+    <>
+      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
+      <div className={`min-h-screen transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'} bg-black text-gray-100`}>
+        
+      </div>
+    </>
   )
 }
 
