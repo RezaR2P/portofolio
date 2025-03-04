@@ -30,9 +30,22 @@ const backendSkills = [
       <RevealOnScreen>
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About Me</h2>
-        <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
-          <p className="text-gray-300 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsam dolor delectus. Inventore atque dolorem ab sapiente consectetur dignissimos. Quasi?</p>
-        </div>
+<div className="bg-white/5 p-8 rounded-xl border border-white/10 hover:shadow-[0_0_20px_rgba(59,130,246,0.1)] transition-all">
+  <p className="text-gray-300 mb-4 leading-relaxed tracking-wide">
+    In my free time, I enjoy playing games to unwind and sharpen my strategic thinking. I also love reading books on personal development and technology, which help me grow both professionally and personally.
+  </p>
+
+  <div className="flex items-center mb-4">
+    <span className="mr-2">🎮</span>
+    <p className="text-gray-300">
+      Fun fact: I once got so caught up in a "marathon" of studying and gaming that I completely lost track of time—playing and learning non-stop until I realized it was already morning! My phone alarm went off, and that’s when I finally noticed I had skipped both sleep and meals. But hey, at least I completed an important mission in the game and learned something new along the way! 😅
+    </p>
+  </div>
+
+  <p className="text-gray-300 mb-4 hover:text-blue-400 transition-all">
+    I believe that hobbies are not just a form of entertainment but also a way to learn and grow as an individual. Oh, and one more thing—I live by this motto: "Life is like a game. Sometimes the challenges are tough, but there’s always a way to win (or at least, a save point)." 😄
+  </p>
+</div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
