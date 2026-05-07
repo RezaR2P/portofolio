@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
+
 function Navbar({ menuOpen, setMenuOpen }) {
   useEffect(() => {
     document.body.style.overflowY = menuOpen ? 'hidden' : '';
@@ -54,3 +56,8 @@ function Navbar({ menuOpen, setMenuOpen }) {
 }
 
 export default Navbar;
+
+Navbar.propTypes = {
+  menuOpen: PropTypes.bool.isRequired,
+  setMenuOpen: PropTypes.func.isRequired,
+};

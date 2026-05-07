@@ -42,9 +42,10 @@ function About() {
 
             <div className="flex items-center mb-4">
               <p className="text-gray-300 mb-6 leading-relaxed">
-                I’m a lifelong learner who finds growth in both tech and gaming.
-                Whether it's an all-night study marathon or a tough boss fight,
-                I'm always looking for the most efficient way to level up.
+                I&apos;m a lifelong learner who finds growth in both tech and
+                gaming. Whether it&apos;s an all-night study marathon or a tough
+                boss fight, I&apos;m always looking for the most efficient way
+                to level up.
               </p>
             </div>
 
