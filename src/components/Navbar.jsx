@@ -10,7 +10,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
         <div className="flex items-center justify-between h-16">
           <a href="#home" className="text-xl font-bold font-mono text-white">
             <img
-              src="../../public/image/logo.png"
+              src="/image/logo.png"
               alt="Logo"
               className="h-20 w-auto object-contain pt-5"
             />
